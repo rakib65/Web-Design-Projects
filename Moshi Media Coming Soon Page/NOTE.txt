@@ -1,0 +1,25 @@
+To edit the questions edit the following lines from index.html :
+
+question1 : line 183
+question2 : line 213
+question3 : line 244
+question4 : line 275
+question5 : line 306
+question6 : line 337
+question7 : line 368
+question8 : line 399
+question9 : line 430
+question10 : line 461
+
+To delete a question completely:
+find the start of the question and delete everyting before the start of the next question
+
+If you delete any question delete the question number errror from form.js file [can be found in js folder].
+>> find line 453 in the form.js
+>> delete the question error check along with the && operator. for example
+	if you delete question no. 5, then delete '&& q5Erroe == false'
+
+
+
+
+

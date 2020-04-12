@@ -1,0 +1,625 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+		<title>
+			Moshi Media
+		</title>
+
+		<!-- bootstrap4 [css framwork] -->
+		<link rel="stylesheet" href="css/jquery.fullpage.min.css">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css">
+
+		<!-- Custom Css stylesheet -->
+		
+		<link rel="stylesheet" href="css/style.css">
+
+	</head>
+
+	<body>
+
+		<div class="headerNav" id="csNav">
+			<nav class="text-center fixed-top">
+				<ul id="myMenu" class="csNavlist">
+					<li data-menuanchor="firstPage" class="active cs-nav-item">
+						<a class="cs-nav-link" href="#csHeader">
+							Home
+						</a>
+					</li>
+					<li data-menuanchor="secondPage" class="cs-nav-item">
+						<a class="cs-nav-link" href="#csLanding">
+							Apply for Job
+						</a>
+					</li>
+					<li data-menuanchor="thirdPage" class="cs-nav-item">
+						<a class="cs-nav-link" href="#csContact">
+							contact
+						</a>
+					</li>
+				</ul>
+			</nav>
+		</div>
+
+		<div id="fullpage">
+			<div class="section fp-auto-height-responsive" id="csHeader">
+
+				<!-- Conatins Logo and the Heading of the page -->
+				<div class="section-wrapper-header">
+					<div class="container">
+
+						<!-- logo -->
+						<div class="logo-wrapper">
+							<div class="logo text-center">
+								<img class="logo-img" src="img/MoshiMediaSmall.png" alt="Logo">
+							</div>
+						</div>
+
+						<!-- headline -->
+						<div class="headline-wrapper">
+							<!--
+							<div class="subheadline">
+							<h3 class="subheadline-text text-center">our awesom services are</h3>
+							</div>
+							-->
+							<div class="headline">
+								<h1 class="headline-text text-center">
+									nice to meet you,
+								</h1>
+								<h1 class="headline-text text-center">
+									we are
+									<span class="bgreen">
+										coming Soon
+									</span>
+								</h1>
+								<p class="text-center">
+									<a class="down-icon" href="#secondPage">
+										<i class="fas fa-chevron-down">
+										</i>
+									</a>
+								</p>
+							</div>
+
+						</div>
+
+						<!-- End of container -->
+					</div>
+
+				</div>
+			</div>
+
+		
+
+		<!-- <div class="section fp-auto-height fp-auto-height-responsive"> --> 
+		
+			<div  id="csLanding" class="section fp-auto-height">
+				<!-- Contains contact form and the user info form -->
+				<div class="section-wrapper-contetns">
+
+					<div class="container">
+						<div class="row justify-content-center">
+
+							<!-- landing form area -->
+							<div class=" col-xl-8 col-lg-12 col-md-12 col-sm-12">
+								<div class="landing-wrapper">
+									<div class="landing">
+
+										<div class="lmessage">
+											<h3 class="lmessage-headline">
+												Apply for Available Job Vacancies
+											</h3>
+
+											<!-- <p class="lmessage-body">Apply for the job before everything is ready with following information.</p> -->
+										</div>
+
+										<div class="landing-form">
+											
+
+											<form class="lform" id="landigForm" novalidate>
+												<div class="form-group">
+													<input type="text" name="Name" class="form-control lform-field" placeholder="Name" required>
+													<p class="error lnamerequired">
+														required
+													</p>
+												</div>
+
+												<div class="form-group">
+													<label>
+														Date of Birth:
+													</label>
+													<div class="row">
+														<div class="col-4">
+															<input type="number" maxlength="2" name="Date" class="form-control lform-field" placeholder="DD" required>
+														</div>
+														<div class="col-4">
+															<input type="number" maxlength="2" name="Month" class="form-control lform-field" placeholder="MM" required>
+														</div>
+														<div class="col-4">
+															<input type="number" maxlength="4" name="Year" class="form-control lform-field" placeholder="YYYY" required>
+														</div>
+													</div>
+													<p class="error bdrequired">
+														required
+													</p>
+													<p class="error bdinvalid">
+														invalid bith day
+													</p>
+												</div>
+
+												<div class="form-group">
+													<input type="email" name="Email" class="form-control lform-field" placeholder="Email Address" required>
+
+													<p class="error lmailrequired">
+														required
+													</p>
+													<p class="error lmailvalid">
+														invalid email address
+													</p>
+												</div>
+
+												<div class="form-group">
+													<input type="tel" name="Whatsapp" class="form-control lform-field" placeholder="WhatsApp No" required>
+													<p class="error lwarequired">
+														required
+													</p>
+												</div>
+
+												<div class="form-group">
+													<input type="text" name="YouTube" class="form-control lform-field" placeholder="YouTube Video Link" required>
+													<p class="error lytrequired">
+														required
+													</p>
+													<p class="error lytvalid">
+														only youtube link
+													</p>
+												</div>
+												
+												
+												<!-- QUESTIONs--------------- -->
+												<!-- start Question 1 -->
+												<div class="form-group">
+													<p class="question">
+														are you a developer?
+													</p>
+
+													<div class="form-check">
+														<label class="form-check-label">
+															<input class="form-check-input qin Q1" type="radio" name="question1"  value="yes" > Yes
+														</label>
+													</div>
+													<div class="form-check">
+														<label class="form-check-label">
+															<input class="form-check-input qin Q1" type="radio" name="question1"  value="no">No
+														</label>
+													</div>
+													<div class="form-check">
+														<label class="form-check-label">
+															<input class="form-check-input qin Q1" type="radio" name="question1" value=" ">
+															Others
+															<div class="other-option">
+																<input type="text" class="form-control radio-other-option Q1" id="q1ti" placeholder="Pleasae specify" name="question1">
+															</div>
+														</label>
+													</div>
+													<p class="error Q1required">
+														required
+													</p>
+													
+												</div> 
+												
+												<!-- start Question 2 -->
+												<div class="form-group">
+													<p class="question">
+														are you a hardworking person?
+													</p>
+
+													<div class="form-check">
+														<label class="form-check-label">
+															<input class="form-check-input qin Q2" type="radio" name="question2"  value="yes"  > Yes
+														</label>
+													</div>
+													<div class="form-check">
+														<label class="form-check-label">
+															<input class="form-check-input qin Q2" type="radio" name="question2"  value="no">No
+														</label>
+													</div>
+													<div class="form-check">
+														<label class="form-check-label">
+															<input class="form-check-input qin Q2" type="radio" name="question2" value=" ">
+															Others
+															<div class="other-option">
+																<input type="text" class="form-control radio-other-option Q2" id="q2ti" placeholder="Pleasae specify" name="question2">
+															</div>
+														</label>
+													</div>
+													<p class="error Q2required">
+														required
+													</p>
+
+												</div>
+												
+												<!-- start Question 3 -->
+												<div class="form-group">
+													<p class="question">
+														do you have expereince?
+													</p>
+
+													<div class="form-check">
+														<label class="form-check-label">
+															<input class="form-check-input qin Q3" type="radio" name="question3"  value="yes" > Yes
+														</label>
+													</div>
+													<div class="form-check">
+														<label class="form-check-label">
+															<input class="form-check-input qin Q3" type="radio" name="question3"  value="no">No
+														</label>
+													</div>
+													<div class="form-check">
+														<label class="form-check-label">
+															<input class="form-check-input qin Q3" type="radio" name="question3" value=" ">
+															Others
+															<div class="other-option">
+																<input type="text" class="form-control radio-other-option Q3" id="q3ti" placeholder="Pleasae specify" name="Question3">
+															</div>
+														</label>
+													</div>
+													<p class="error Q3required">
+														required
+													</p>
+
+												</div>
+												
+												<!-- start Question 4 -->
+												<div class="form-group">
+													<p class="question">
+														do you like to travel?
+													</p>
+
+													<div class="form-check">
+														<label class="form-check-label">
+															<input class="form-check-input qin Q4" type="radio" name="question4"  value="yes" > Yes
+														</label>
+													</div>
+													<div class="form-check">
+														<label class="form-check-label">
+															<input class="form-check-input qin Q4" type="radio" name="question4"  value="no">No
+														</label>
+													</div>
+													<div class="form-check">
+														<label class="form-check-label">
+															<input class="form-check-input qin Q4" type="radio" name="question4" value=" ">
+															Others
+															<div class="other-option">
+																<input type="text" class="form-control radio-other-option Q4" id="q4ti" placeholder="Pleasae specify" name="Question4">
+															</div>
+														</label>
+													</div>
+													<p class="error Q4required">
+														required
+													</p>
+
+												</div>
+												
+												<!-- start Question 5 -->
+												<div class="form-group">
+													<p class="question">
+														do you like to work at home?
+													</p>
+
+													<div class="form-check">
+														<label class="form-check-label">
+															<input class="form-check-input qin Q5" type="radio" name="question5"  value="yes" > Yes
+														</label>
+													</div>
+													<div class="form-check">
+														<label class="form-check-label">
+															<input class="form-check-input qin Q5" type="radio" name="question5"  value="no">No
+														</label>
+													</div>
+													<div class="form-check">
+														<label class="form-check-label">
+															<input class="form-check-input qin Q5" type="radio" name="question5" value=" ">
+															Others
+															<div class="other-option">
+																<input type="text" class="form-control radio-other-option Q5" id="q5ti" placeholder="Pleasae specify" name="question5">
+															</div>
+														</label>
+													</div>
+													<p class="error Q5required">
+														required
+													</p>
+
+												</div>
+												
+												<!-- start Question 6 -->
+												<div class="form-group">
+													<p class="question">
+														do you know how to use computer?
+													</p>
+
+													<div class="form-check">
+														<label class="form-check-label">
+															<input class="form-check-input qin Q6" type="radio" name="question6"  value="yes" > Yes
+														</label>
+													</div>
+													<div class="form-check">
+														<label class="form-check-label">
+															<input class="form-check-input qin Q6" type="radio" name="question6"  value="no">No
+														</label>
+													</div>
+													<div class="form-check">
+														<label class="form-check-label">
+															<input class="form-check-input qin Q6" type="radio" name="question6" value=" ">
+															Others
+															<div class="other-option">
+																<input type="text" class="form-control radio-other-option Q6" id="q6ti" placeholder="Pleasae specify" name="Question6">
+															</div>
+														</label>
+													</div>
+													<p class="error Q6required">
+														required
+													</p>
+
+												</div>
+												
+												<!-- start Question 7 -->
+												<div class="form-group">
+													<p class="question">
+														are you willing to join a team work?
+													</p>
+
+													<div class="form-check">
+														<label class="form-check-label">
+															<input class="form-check-input qin Q7" type="radio" name="question7"  value="yes" > Yes
+														</label>
+													</div>
+													<div class="form-check">
+														<label class="form-check-label">
+															<input class="form-check-input qin Q7" type="radio" name="question7"  value="no">No
+														</label>
+													</div>
+													<div class="form-check">
+														<label class="form-check-label">
+															<input class="form-check-input qin Q7" type="radio" name="question7" value=" ">
+															Others
+															<div class="other-option">
+																<input type="text" class="form-control radio-other-option Q7" id="q7ti" placeholder="Pleasae specify" name="Question7">
+															</div>
+														</label>
+													</div>
+													<p class="error Q7required">
+														required
+													</p>
+
+												</div>
+												
+												<!-- start Question 8 -->
+												<div class="form-group">
+													<p class="question">
+														do you know use facebook?
+													</p>
+
+													<div class="form-check">
+														<label class="form-check-label">
+															<input class="form-check-input qin Q8" type="radio" name="question8"  value="yes" > Yes
+														</label>
+													</div>
+													<div class="form-check">
+														<label class="form-check-label">
+															<input class="form-check-input qin Q8" type="radio" name="question8"  value="no">No
+														</label>
+													</div>
+													<div class="form-check">
+														<label class="form-check-label">
+															<input class="form-check-input qin Q8" type="radio" name="question8" value=" ">
+															Others
+															<div class="other-option">
+																<input type="text" class="form-control radio-other-option Q8" id="q8ti" placeholder="Pleasae specify" name="Question8">
+															</div>
+														</label>
+													</div>
+													<p class="error Q8required">
+														required
+													</p>
+
+												</div>
+												
+												<!-- start Question 9 -->
+												<div class="form-group">
+													<p class="question">
+														do you line to be a leader?
+													</p>
+
+													<div class="form-check">
+														<label class="form-check-label">
+															<input class="form-check-input qin Q9" type="radio" name="question9"  value="yes" > Yes
+														</label>
+													</div>
+													<div class="form-check">
+														<label class="form-check-label">
+															<input class="form-check-input qin Q9" type="radio" name="question9"  value="no">No
+														</label>
+													</div>
+													<div class="form-check">
+														<label class="form-check-label">
+															<input class="form-check-input qin Q9" type="radio" name="question9" value=" ">
+															Others
+															<div class="other-option">
+																<input type="text" class="form-control radio-other-option Q9" id="q9ti" placeholder="Pleasae specify" name="Question9">
+															</div>
+														</label>
+													</div>
+													<p class="error Q9required">
+														required
+													</p>
+
+												</div>
+												
+												<!-- start Question 10 -->
+												<div class="form-group">
+													<p class="question">
+														do you know how to managea website?
+													</p>
+
+													<div class="form-check">
+														<label class="form-check-label">
+															<input class="form-check-input qin Q10" type="radio" name="question10"  value="yes"> Yes
+														</label>
+													</div>
+													<div class="form-check">
+														<label class="form-check-label">
+															<input class="form-check-input qin Q10" type="radio" name="question10"  value="no">No
+														</label>
+													</div>
+													<div class="form-check">
+														<label class="form-check-label">
+															<input class="form-check-input qin Q10" type="radio" name="question10" value=" ">
+															Others
+															<div class="other-option">
+																<input type="text" class="form-control radio-other-option Q10" id="q10ti" placeholder="Pleasae specify" name="Question10">
+															</div>
+														</label>
+													</div>
+													<p class="error Q10required">
+														required
+													</p>
+
+												</div>
+												
+												
+												<!-- end questions -->
+
+												<input type="submit" class="form-control lform-submit" value="Apply">
+												
+												<p class="lsuccess text-success text-center">
+													Application Recieved!
+												</p>
+												<p class="lfail text-danger text-center">
+													Something Went Wrong!
+												</p>
+											</form>
+											
+										</div>
+
+									</div>
+								</div>
+							</div>
+
+						</div>
+					</div>
+				</div>
+			</div>
+
+
+			<div id="csContact" class="section">
+				<!-- Contains contact form and the user info form -->
+				<div class="section-wrapper-contetns">
+
+					<div class="container">
+						<div class="row justify-content-center">
+
+							<!-- Contact form area -->
+							<div class="col-lg-8 col-md-12 col-sm-12">
+								<div class="contact-wrapper">
+									<div class="contact">
+
+										<div class="cmessage">
+											<h3 class="cmessage-headline">
+												Contact us
+											</h3>
+
+											<!-- <p class="cmessage-body"> No worries, still we can hear you. Just ask.</p> -->
+										</div>
+
+										<div class="contact-form">
+
+											<p class="csuccess text-success text-center">
+												Message Recieved!
+											</p>
+											<p class="cfail text-danger text-center">
+												Something Went Wrong!
+											</p>
+
+											<form class="cform" id="contactForm" novalidate>
+												<div class="form-group">
+													<input type="text" name="NameC" class="form-control cform-field" placeholder="Name" required>
+													<p class="error cnamerequired">
+														required
+													</p>
+												</div>
+												<div class="form-group">
+													<input type="email" name="EmailC" class="form-control cform-field" placeholder="Email Address" required>
+													<p class="error cmailrequired">
+														required
+													</p>
+													<p class="error cmailvalid">
+														ivalid email address
+													</p>
+												</div>
+												<div class="form-group">
+													<textarea class="form-control cform-field" name="Message" placeholder="Message">
+													</textarea>
+												</div>
+
+												<input type="submit" class="form-control cform-submit" value="Submit">
+											</form>
+										</div>
+
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			
+
+			<div  id="csFooter" class="section fp-auto-height">
+				<!-- Contains footer info such as Copyright and social media links-->
+				<div class="section-wrapper-footer">
+					<div class="container">
+						<div class="copyright-wrapper">
+							<div class="copyright">
+								<p class="copyright-text text-center">
+									copyright &copy; 2018. All right reserved.
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		<!-- </div> -->
+
+	</div>
+
+
+
+
+
+		<!-- Scripts -->
+		<!-- (1)jQuery,  (2)popper plugins  (3) Bootstrap jQuery Plugin -->
+		<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous">
+		</script>
+
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous">
+		</script>
+
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
+		</script>
+
+		<!-- custom script file -->
+		<script src="js/jquery.fullpage.min.js">
+		</script>
+		<script src="js/script.js">
+		</script>
+
+		<!-- script to handle users form data [save to Google Sheet] -->
+		<script src="js/form.js">
+		</script>
+
+		<!-- End of script section -->
+	</body>
+</html>

@@ -1,0 +1,276 @@
+.form-section {
+    display: none;
+}
+
+.form-section.current {
+    display: inherit;
+}
+
+input.parsley-success,
+select.parsley-success,
+textarea.parsley-success {
+    color: #468847;
+    background-color: #DFF0D8;
+    border: 1px solid #D6E9C6;
+}
+
+input.parsley-error,
+select.parsley-error,
+textarea.parsley-error {
+    color: #B94A48;
+    background-color: #F2DEDE;
+    border: 1px solid #EED3D7;
+}
+
+.parsley-errors-list {
+    margin: 2px 0 3px;
+    padding-top: 5px;
+    list-style-type: none;
+    font-size: 0.9em;
+    line-height: 0.9em;
+    opacity: 0;
+    color: #FF4F37;
+    transition: all .3s ease-in;
+    -o-transition: all .3s ease-in;
+    -moz-transition: all .3s ease-in;
+    -webkit-transition: all .3s ease-in;
+}
+
+.parsley-errors-list.filled {
+    opacity: 1;
+}
+
+html {
+    font-family: "sans-serif";
+    font-size: 14px;
+}
+
+body {
+    /*background: #fff;*/
+    background: url(../img/bg.png), url(../img/lisbonn.jpg)fixed top;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size: 14px;
+    font-family: 'Raleway', sans-serif;
+}
+
+.ar-header {
+    height: auto;
+    background: rgba(255, 255, 255, 0.6);
+    border: thin solid rgba(255, 200, 100, .65);
+    box-shadow: 1px 1px 15px 0px rgba(255, 200, 100, 0.5);
+}
+
+a.logo-a {
+    padding-bottom: 2em;
+}
+
+.logo-img {
+    height: 90px;
+    width: auto;
+    float: left;
+    position: relative;
+}
+
+ul.ar-nav-ul {
+    display: block;
+    position: relative;
+    float: right;
+    list-style: none;
+    margin-top: 1em;
+}
+
+ul.ar-nav-ul li {
+    display: inline-block;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-size: 1rem;
+    background: #eee;
+    /*box-shadow: inset 1px 1px 2px rgba(255, 255, 255, 0.5), 0px 1px 0 rgba(0, 0, 0, 0.2);*/
+    border-radius: 2px;
+    padding: .5em 1.5em;
+    margin-right: 1em;
+    margin-top: 1em;
+    letter-spacing: 1px;
+}
+
+ul.ar-nav-ul li a {
+    color: #F4811E;
+    font-weight: 600;
+}
+
+ul.ar-nav-ul li a:hover {
+    color: #31708f;
+    text-decoration: none;
+}
+
+
+/*----------------------------------------------------------------------*/
+
+@media only screen and (max-width: 768px) {
+    ul.ar-nav-ul {
+        display: block;
+        position: relative;
+        float: inherit;
+        list-style: none;
+        margin-top: 1em;
+    }
+    .ar-header {
+        text-align: center;
+    }
+    .logo-img {
+        height: 90px;
+        width: auto;
+        float: inherit;
+        position: relative;
+    }
+}
+
+
+/*---------------------------------------------------------------------*/
+
+.ar-content {
+    /*
+    background: url(../img/bg.png), url(../img/lisbonn.jpg)fixed top;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;*/
+    padding-top: 2.5em;
+    padding-bottom: 3em;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+.ar-form-wrapper {
+    /*background: rgba(255,240,200,0.40);*/
+    background: rgba(0, 0, 0, 0.60);
+    border: thin solid rgba(255, 200, 100, .65);
+    box-shadow: 1px 1px 15px 0px rgba(255, 200, 100, 0.5);
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+
+.ar-reservation-form {
+    padding: 2.5em;
+}
+
+label {
+    color: #fff;
+    font-weight: 500;
+    font-size: 16px;
+    font-size: 1.0rem;
+    padding-left: .625em;
+    text-transform: uppercase;
+    font-family: 'Raleway', sans-serif;
+}
+
+label::after {
+    content: " :";
+}
+
+.form-group {
+    padding: .6em 0;
+}
+
+.form-control {
+    border: thin solid rgba(255, 200, 100, .3);
+    box-shadow: 1px 1px 1px rgba(255, 200, 100, 0.5);
+    text-indent: 15px;
+    background: #eee;
+}
+
+.form-control:focus {
+    background: #FFF;
+}
+
+.ar-btn-primary {
+    margin-top: 1em;
+    padding: .6em 3em;
+    text-transform: uppercase;
+    background: #F4811E;
+    box-shadow: inset 1px 1px 2px rgba(255, 255, 255, 0.5), 0px 1px 0 rgba(0, 0, 0, 0.2);
+    border: 1px solid #F4811E;
+    border-top-color: rgb(244, 129, 30);
+    border-right-color: rgb(244, 129, 30);
+    border-bottom-color: rgb(244, 129, 30);
+    border-left-color: rgb(244, 129, 30);
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    color: #fff;
+    font-size: 18px;
+    font-size: 1.1rem;
+    letter-spacing: .06em;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.4);
+}
+
+.ar-btn-primary:hover {
+    background: #008BA7;
+    border-color: #008BA7;
+    color: #fff;
+}
+
+.ar-btn-secondary {
+    background: #008BA7;
+    border-color: #008BA7;
+    color: #fff;
+    margin-top: 1em;
+    padding: .6em 3em;
+    box-shadow: inset 1px 1px 2px rgba(255, 255, 255, 0.5), 0px 1px 0 rgba(0, 0, 0, 0.2);
+    font-size: 18px;
+    font-size: 1.1rem;
+    letter-spacing: .06em;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.4);
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.ar-btn-secondary:hover {
+    background: #F4811E;
+    border: 1px solid #F4811E;
+    color: #fff;
+}
+
+.section-header {
+    color: #F4A01C;
+    font-family: 'Roboto Slab', serif;
+    font-size: 20px;
+    font-size: 1.6rem;
+    padding-left: 1em;
+    padding-left: 5px;
+    padding-top: 1.2em;
+    border-bottom: 1px dotted;
+    padding-bottom: .4em;
+}
+
+.final-nav {
+    margin-top: 1em;
+}
+
+.ar-footer {
+    height: 50px;
+    background: #0D0D0E;
+}
+
+.terms {
+    padding-top: 1.6em;
+    font-size: 14px;
+    font-size: .85rem;
+}
+
+.terms a {
+    color: #666;
+}
+
+.terms a:hover {
+    color: #999;
+    text-decoration: none;
+}
+
+.footer-link {
+    padding-left: 1em;
+    padding-right: 1em;
+}

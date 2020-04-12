@@ -1,0 +1,503 @@
+/* CSS Document */
+
+/*
+
+    font-family: 'Exo', sans-serif;
+
+    font-family: 'Montserrat', sans-serif;
+
+    font-family: 'Audiowide', cursive;
+
+*/
+#Header{
+	background: url(../img/header3.jpg) no-repeat fixed;
+	background-position: center center;
+	background-size: cover;
+	/*border-bottom: 1px solid #fff;
+	box-shadow: 2px 1px 5px rgba(0,0,0,.30);*/
+}
+.mh-logo{
+	height: 140px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	margin-top: 10px;
+}
+.mh-banner{
+	margin-top: 15px;
+}
+.red{
+	color: #da251d;
+}
+.banner-text{
+	padding-bottom: 4em;
+	padding-top: 1.5em;
+	padding-left: 1em;
+	padding-right: 1em;
+}
+.banner-headline{
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 700;
+	line-height: 1.5em;
+	font-size: 2.35em;
+	padding-bottom: 20px;
+	color: rgba(0,0,0,0.75);
+	text-shadow: 1px 1px 5px rgba(0,0,0,.2);
+	
+}
+.banner-sbheadline{
+	font-family: 'Exo', sans-serif;
+	font-size: 2.85em;
+	line-height: 1.5em;
+	padding-top: 5px;
+	font-weight: 700;
+	padding-bottom: 10px;
+	text-shadow: 1px 1px 3px rgba(0,0,0,.5);
+	
+}
+
+#ContentSteps{
+	border-bottom: 1px solid #fff;
+	box-shadow: -1px -1px 5px rgba(0,0,0,0.3);
+	border-top: 1px solid #fff;
+	
+}
+.steps{
+	padding-top: 3em;
+	padding-bottom: 3em;
+}
+.step-1{
+	padding-bottom: 2em;
+}
+.video{
+	padding-bottom: 1em;
+	max-width: 600px;
+	text-align: center;
+	margin: 0 auto;
+}
+.step-heading{
+	font-family: 'Exo', sans-serif;
+	font-weight: 700;
+	font-size: 1.8em;
+	color: #454545;
+	text-align: center;
+	padding-bottom: 15px;
+}
+.step-details{
+	font-family: 'Exo', sans-serif;
+	font-size: 1.15em;
+	color: #666;
+	line-height: 1.65em;
+	padding-bottom: 20px;
+	padding-left: 1em;
+	padding-right: 1em;
+}
+.apply-button{
+	text-align: center;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	
+}
+.apply-button-link{
+	background: #2f81b7;
+	color: #FFF;
+	padding: 25px 25px;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 1.1em;
+	opacity: 1;
+	text-decoration: none;
+	transition: all 0.5s ease;
+}
+.apply-button-link:hover{
+	opacity: 0.9;
+	text-decoration: none;
+	color: #FFF;
+}
+
+.mh-modal-header{
+	border: none;
+}
+.mh-modal-content-area{
+	border-radius: 3px;
+}
+
+.input-field{
+	margin-bottom: 1.2em;
+}
+.email-field, .name-field{
+	border-radius: 2px;
+	width: 80%;
+	margin: 0 auto;
+}
+.submit-btn{
+	border-radius: 2px;
+	width: 40%;
+	margin: 0 auto;
+	background: #2f81b7;
+	color: #FFF;
+	border: none;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 1em;
+	transition: all 0.5s ease;
+	opacity: 1;
+}
+.submit-btn:hover{
+	opacity: 0.9;
+	cursor: pointer;
+}
+
+.mh-form-error{
+	border: 1px solid #ff0000;
+}
+.error-reporting{
+	padding-top: 10px;
+}
+.error-null, .error-invalid{
+	color: #f00;
+	font-size: 12px;
+	font-family: 'Montserrat', sans-serif;
+	margin: 0;
+	padding-bottom: 5px;
+	text-align: center;
+}
+
+
+#Review{
+	background: #efefef;
+}
+.review-wrapper{
+	padding-top: 2em;
+	padding-bottom: 3em;
+	padding-left: 1em;
+	padding-right: 1em;
+}
+.section-heading{
+	padding-top: 15px;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 2.5em;
+	font-weight: 700;
+	color: #da251d;
+}
+.overeall-rating{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 2em;
+	padding-bottom: 5px;
+	font-weight: 700;
+}
+.rating-big{
+	height: 25px;
+	padding-left: 5px;
+	margin: 0;
+}
+.rating-info{
+	font-family: 'Exo', sans-serif;
+	font-size: 1.05em;
+	padding: 0px;
+	color: #666;
+	padding-bottom: 1.5em;
+	
+}
+.tp-logo-img{
+	height: 11px;
+	padding-left: 10px;
+}
+.review-single-wrapper{
+	background: #fff;
+}
+.review-single{
+	padding: 15px;
+	border: 1px solid #fff;
+	box-shadow: 1px 1px 3px rgba(0,0,0,0.1)
+}
+p.reviewer-name{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 16px;
+	font-weight: 700;
+	padding-left: 5px;
+	padding-top: 10px;
+	margin: 0px;
+	color: #454545;
+}
+p.stars{
+	margin: 0;
+	padding-bottom: 3px;
+}
+.rating{
+	height: 15px;
+	padding: 0px;
+	padding-left: 5px
+}
+.date{
+	margin: 0;
+	padding-bottom: 15px;
+	font-family: 'Exo', sans-serif;
+	font-size: 13px;
+	padding-left: 5px;
+}
+.review-heading{
+	font-family: 'Exo', sans-serif;
+	font-weight: 700;
+	font-size: 1.05em;
+	padding-bottom: 8px;
+	color: #454545;
+}
+.review-body{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 14px;
+	color: #515151;
+	padding-bottom: 5px;
+}
+.read-more{
+	text-align: center;
+	padding-top: 5px;
+	border-top: dotted 1px rgba(0,0,0,0.2);
+}
+.review-body-modal{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 13px;
+	color: #444;
+	padding-bottom: 10px;
+	line-height: 1.75em;
+	padding-left: 5px;
+	padding-right: 5px;
+	
+}
+
+.btn-mh{
+	border: none;
+	background: #fff;
+	text-align: center;
+	text-transform: capitalize;
+	cursor: pointer;
+	color: #515151;
+	transition: all 0.5s ease;
+	font-size: 15px;
+	font-family: 'Montserrat', sans-serif;
+}
+.btn-mh:hover{
+	color: #da251d;
+}
+
+.testimonial{
+	margin-top: 3em;
+	border-top: 1px dotted rgba(0,0,0,0.2);
+	padding-top: 2em;
+}
+.popic{
+	border-radius: 50% 50%;
+	width: 200px;
+}
+.quote-sign{
+	font-size: 1.2em;
+	color: #000;
+}
+.testimonial-details{
+	font-family: 'Exo', sans-serif;
+	font-size: 1em;
+	color: #666;
+	line-height: 1.6em;
+	margin: 0;
+	padding-bottom: 15px;	
+}
+.testimonial-body{
+	padding: 1em;
+}
+.poster-details{
+	padding-top: 15px;
+}
+.poster-details p{
+	margin: 0;
+	font-family: 'Exo', sans-serif;
+}
+.author{
+	font-weight: 700;
+}
+.author-details{
+	font-size: 1em;
+}
+#About{
+	box-shadow: -1px -1px 5px rgba(0,0,0,0.1);
+
+}
+.mh-about{
+	padding-top: 3em;
+	padding-bottom: 3em;
+}
+.profile-pic{
+	padding: 5px;
+}
+.ppimg{
+	width: 100%;
+	height: auto;
+	box-shadow: 1px 1px 3px rgba(0,0,0,0.1);
+	border-radius: 10px;
+	border: 1px solid #fff;
+}
+.about-details{
+	padding: 10px 15px;
+}
+.about-coach{
+	font-family: 'Exo', sans-serif;	
+	font-size: 1.3em;
+	color: #222;
+	padding-left: 10px;
+	padding-top: 10px
+}
+.about-list{
+	list-style: square;
+}
+.about-item{
+	padding-bottom: 12px;
+	font-family: 'Exo', sans-serif;
+	font-size: 1.05em;
+	color: #515151
+}
+
+.mh-footer{
+	background: #333;
+}
+p.copyright{
+	margin: 0px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	color: #888;
+	text-transform: uppercase;
+	font-size: 13px;
+	letter-spacing: 1px;
+	
+}
+
+@media(max-width: 767px){
+	
+	.banner-headline{
+		line-height: 1.3em;
+		font-size: 1.5em;
+		padding-bottom: 10px;
+			
+	}
+	.banner-sbheadline{
+		font-size: 1.75em;
+		line-height: 2.2em;
+		padding-bottom: 0px;
+		padding-top: 0px
+		
+	}
+	.banner-text{
+		padding-bottom: 2em;
+		padding-top: .1em;
+		padding-left: 1em;
+		padding-right: 1em;
+	}
+	.step-heading{
+		font-size: 1.5em;
+		text-align: center;
+	}
+	.step-details{
+		font-size: 1em;
+	}
+	.apply-button-link{
+		padding: 20px 20px;
+		font-size: 1em;
+	}
+	.section-heading{
+		font-size: 2em;
+	}
+	.overeall-rating{
+		font-size: 1.65em;
+	}
+	.rating-big{
+		height: 22px;
+	}
+	.review-single-wrapper{
+		margin-bottom: 15px;
+	}
+	.about-coach{
+		font-size: 1.1em;
+	}
+	.about-item{
+		font-size: .95em;
+	}
+	.poster-picture{
+		text-align: center;
+	}
+	.popic{
+		width: 150px;
+		height: 150px;
+		margin: 0 auto;
+	}
+}
+@media(max-width: 575px){
+	.banner-headline{
+		line-height: 1.4em;
+		font-size: 1.15em;
+	}
+	.banner-sbheadline{
+		font-size: 1.3em;
+		line-height: 1.2em;
+		padding-bottom: 10px
+	}
+	.banner-text{
+		padding-bottom: 1em;
+		padding-top: .5em;
+		padding-left: .5em;
+		padding-right: .5em;
+	}
+	.step-heading{
+		font-size: 1.1em;
+		text-align: center;
+	}
+	.step-details{
+		font-size: .9em;
+		text-align: center
+	}
+	.apply-button{
+		margin-bottom: 0px;
+	}
+	.apply-button-link{
+		font-size: .8em;
+	}
+	.review-wrapper{
+		padding-top: 1em;
+		padding-bottom: 1.5em;
+		padding-left: .5em;
+		padding-right: .5em;
+	}
+	.section-heading{
+		font-size: 1.8em;
+	}
+	.overeall-rating{
+		font-size: 1.25em;
+	}
+	.rating-big{
+		height: 18px;
+	}
+	.rating-info{
+		font-size: .9em;
+		padding-bottom: 10px;
+	}
+	.review-single-wrapper{
+		margin-bottom: 15px;
+	}
+	.mh-about{
+		padding-top: 1em;
+		padding-bottom: 1em;
+	}
+	.about-coach{
+		font-size: 1.1em;
+	}
+	.about-item{
+		font-size: .95em;
+	}
+	.poster-picture{
+		text-align: center;
+	}
+	.popic{
+		width: 100px;
+		height: 100px;
+		margin: 0 auto;
+	}
+}
+@media(max-width: 417px){
+	.apply-button-link{
+		font-size: 9px;
+	}
+}

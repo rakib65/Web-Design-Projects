@@ -1,0 +1,454 @@
+body {
+    background: #FFF;
+    margin: 0;
+    padding: 0;
+}
+
+.rlan-header {
+    top: 0;
+    z-index: 9999;
+    width: 100%;
+    background: #fff fixed;
+    position: fixed;
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+}
+
+.logo {
+    margin: 0px auto;
+}
+
+.logo-img {
+    height: 70px;
+    width: auto;
+    margin: 5px;
+}
+
+.header-link-wrapper1 {
+    display: table;
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+
+.header-link-wrapper2 {
+    display: table-cell;
+    vertical-align: middle;
+    height: 100%;
+    width: 100%;
+}
+
+a.header-link {
+    color: #616161;
+    font-size: 22px;
+    font-size: 1.4rem;
+    font-weight: 500;
+}
+
+a.header-link:hover,
+a.header-link:focus,
+a.header-link:active {
+    text-decoration: none;
+    color: #419a1c;
+}
+
+@media only screen and (max-width: 768px) {
+    .header-link {
+        display: none;
+    }
+}
+
+.rlan-banner {
+    background: url("../img/banner.jpg") fixed;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    margin-top: 70px;
+}
+
+.box-table {
+    height: 550px;
+    width: 100%;
+}
+
+.rlan-outer-box {
+    display: table;
+    height: 100%;
+    width: 100%;
+}
+
+.rlan-inner-box {
+    display: table-cell;
+    vertical-align: middle;
+    height: 100%;
+    width: 100%;
+    /*padding-bottom: 4em;*/
+}
+
+.rlan-inner-box h1 {
+    font-size: 75px;
+    font-size: 5rem;
+    color: #FFF;
+    line-height: 90px;
+    line-height: 5rem;
+}
+
+.rlan-inner-box h3 {
+    font-size: 48px;
+    font-size: 3rem;
+    color: #FFF;
+    line-height: 45px;
+    line-height: 4rem;
+    font-weight: 400;
+}
+
+.banner-link {
+    color: #FFF;
+    background: rgba(0, 0, 0, 0.40);
+    font-size: 32px;
+    font-size: 1.2rem;
+    padding: .9em 2em;
+    line-height: 110px;
+    line-height: 5em;
+    border: 1px solid #FFF;
+    border-radius: 4px;
+}
+
+@media only screen and (max-width: 400px) {
+    .box-table {
+        height: 380px;
+    }
+    .rlan-inner-box h1 {
+        font-size: 50px;
+        font-size: 3.2rem;
+    }
+    .rlan-inner-box h3 {
+        font-size: 34px;
+        font-size: 2rem;
+        line-height: 35px;
+        line-height: 2rem;
+    }
+    .banner-link {
+        font-size: 14px;
+        font-size: .75rem;
+        margin-top: 1em;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .box-table {
+        height: 440px;
+    }
+    .rlan-inner-box {
+        vertical-align: middle;
+    }
+    .rlan-inner-box h1 {
+        font-size: 50px;
+        font-size: 3.2rem;
+    }
+    .rlan-inner-box h3 {
+        font-size: 34px;
+        font-size: 2rem;
+        line-height: 35px;
+        line-height: 2rem;
+    }
+    .banner-link {
+        font-size: 14px;
+        font-size: .90rem;
+    }
+}
+
+.banner-link:hover,
+.banner-link:focus,
+.banner-link:active {
+    color: #000;
+    background: rgba(255, 255, 255, 0.40);
+    border: 1px solid #000;
+    text-decoration: none;
+}
+
+.rlan-importants {
+    margin: 3em auto;
+    font-size: 24px;
+    font-size: 1.5rem;
+    background: #FFF fixed;
+}
+
+@media only screen and (max-width: 768px) {
+    .rlan-importants {
+        margin: 2em auto;
+        font-size: 20px;
+        font-size: 1.1rem;
+    }
+}
+
+.yoga-matt-img-cover {
+    background: url(../img/yoga.jpg) fixed;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    width: 100%;
+}
+
+.equation-wrapper {
+    background: #929396 fixed;
+    padding: 0;
+    margin: 0;
+}
+
+
+/*Down pointing*/
+
+.triangle {
+    width: 60px;
+    height: 30px;
+    border-top: solid 30px #929396;
+    border-left: solid 30px transparent;
+    border-right: solid 30px transparent;
+    margin: 0 auto;
+}
+
+.mindfl-equation {
+    font-size: 26px;
+    font-size: 2rem;
+    line-height: 2em;
+    vertical-align: middle;
+    padding: 1em;
+    box-shadow: inset 0 1px 4px #aaa;
+}
+
+.mindfl-eq-p {
+    margin: 0;
+    padding: 0;
+    color: #FFF;
+}
+
+.rlan-class {
+    margin-bottom: 2em;
+}
+
+@media only screen and (max-width: 768px) {
+    .yoga-matt-img-cover {
+        height: 350px;
+    }
+    .mindfl-equation {
+        font-size: 20px;
+        font-size: 1.2rem;
+    }
+}
+
+.rlan-offer {
+    margin-top: 4em;
+    margin-bottom: 3em;
+    padding: 0 2em;
+}
+
+.rlan-offer h2 {
+    line-height: 40px;
+    line-height: 3rem;
+    color: #434343;
+}
+
+.class-piture-wrapper {
+    margin: 15px;
+}
+
+.imgClass1 {
+    padding: 20px 0px 20px 20px;
+    width: 100%;
+    height: 400px;
+}
+
+.imgClass2 {
+    padding: 20px 20px 20px 0px;
+    width: 100%;
+    height: 400px;
+}
+
+@media only screen and (max-width: 768px) {
+    .rlan-offer {
+        margin-top: 2em;
+        margin-bottom: 2em;
+        padding: 0 1.5em;
+    }
+    .rlan-offer h2 {
+        line-height: 25px;
+        line-height: 2rem;
+        color: #434343;
+        font-size: 1.5rem;
+    }
+    .imgClass1 {
+        padding: 20px 0px 20px 20px;
+        width: 100%;
+        height: 260px;
+    }
+    .imgClass2 {
+        padding: 20px 20px 20px 0px;
+        width: 100%;
+        height: 260px;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .rlan-offer {
+        margin-top: 2em;
+        margin-bottom: 2em;
+        padding: 0 1.5em;
+    }
+    .rlan-offer h2 {
+        line-height: 36px;
+        line-height: 2.3rem;
+        color: #434343;
+        font-size: 1.5rem;
+    }
+    .imgClass1 {
+        padding: 20px;
+        width: 100%;
+        height: 200px;
+    }
+    .imgClass2 {
+        padding: 0px 20px 20px 20px;
+        width: 100%;
+        height: 200px;
+    }
+}
+
+.rlan-signup {
+    background: #FFF fixed;
+}
+
+.signup-area-wrapper {
+    margin-top: 2em;
+}
+
+.signup-cover {
+    background: url(../img/muscle.jpeg) fixed;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 450px;
+    width: 100%;
+}
+
+@media only screen and (max-width: 768px) {
+    .signup-cover {
+        height: 380px;
+    }
+    .signup-form-area {
+        padding: 2em 0;
+    }
+    .signup-area-wrapper {
+        margin-top: 1.5em;
+    }
+}
+
+.signup-form-area {
+    padding: 2em;
+}
+
+.signup-form-area h2 {
+    margin-bottom: 2em;
+    font-size: 32px;
+    font-size: 2rem;
+    position: relative;
+}
+
+.signup-form-area h2::after {
+    content: '';
+    height: 3px;
+    background: #333;
+    position: absolute;
+    bottom: 0;
+    right: 42%;
+    width: 20%;
+    margin: -12px auto;
+}
+
+@media only screen and (max-width: 480px) {
+    .signup-form-area h2 {
+        font-size: 32px;
+        font-size: 1.5rem;
+    }
+    .signup-form-area h2::after {
+        width: 40%;
+        right: 30%;
+        margin: -12px auto;
+    }
+}
+
+.signup-btn {
+    padding: .6em;
+    margin: 1em auto;
+    width: 60%;
+}
+
+@media only screen and (max-width: 768px) {
+    .signup-btn {
+        margin: 10px auto;
+        width: 80%;
+    }
+}
+
+.rlan-footer {
+    background: rgba(0, 0, 0, .9);
+    margin-bottom: 0;
+}
+
+.copyright-text {
+    font-size: 14px;
+    font-size: 1rem;
+    padding: 1.5em;
+    color: #666;
+}
+
+.copyright-text a {
+    color: #a0ce4e;
+}
+
+.copyright-text a:hover,
+.copyright-text a:focus,
+.copyright-text a:active {
+    color: #666;
+    text-decoration: none;
+}
+
+
+/*-----------------------------------------------------------------------------------------
+        THANK YOU PAGE CSS
+---------------------------------------------------------------------------------------------*/
+
+.box-1 {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: table;
+}
+
+.box-2 {
+    width: 100%;
+    height: 100%;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+#exampleModal {
+    background: url("../img/banner.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+.modal-content {
+    background: rgba(255, 255, 255, 0.85);
+    border-radius: 0;
+    margin-top: 4em;
+}
+
+.modal-header {
+    border-bottom: none;
+}
+
+.modal-footer {
+    text-align: center;
+    border-top: none;
+}

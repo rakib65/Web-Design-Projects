@@ -1,0 +1,137 @@
+.ar-services,
+.ar-contact {
+    background: url(../img/bg.png), url(../img/lisbonn.jpg) fixed top;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 2.5em;
+    padding-bottom: 3em;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+.service-wrapper,
+.contact-wrapper {
+    background: rgba(255, 255, 255, .90);
+    border: thin solid rgba(255, 200, 100, .65);
+    box-shadow: 1px 1px 15px 0px rgba(255, 200, 100, 0.5);
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+
+.service-box,
+.contact-box {
+    padding: 2.5em;
+}
+
+.page-title {
+    font-family: 'Roboto Slab', serif;
+    color: #F4A01C;
+    padding-bottom: .5em;
+    padding-left: .5em;
+}
+
+.services-area,
+.contact-area {
+    font-family: 'Open Sans', sans-serif;
+    padding-left: .5em;
+    font-size: 16px;
+    font-size: 1rem;
+    margin-top: .8em;
+}
+
+ul li {
+    text-align: justify;
+}
+
+ul.services-ul {
+    padding-right: 1em;
+}
+
+p.li-heading {
+    padding-top: .5em;
+    padding-bottom: 0;
+}
+
+p.li-body {
+    margin-top: -.5em;
+}
+
+.office-hour {
+    margin-top: 2em;
+    margin-bottom: 1em;
+    color: #31708f;
+    background-color: #d9edf7;
+    border: 1px solid #bce8f1;
+    border-radius: 4px;
+}
+
+.office-hour-wrapper {
+    padding: 1em;
+}
+
+.contacts {
+    margin-top: 2em;
+    padding-left: 1em;
+}
+
+.c-number {
+    color: #31708f;
+}
+
+.ar-number {
+    font-size: 18px;
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+
+.customer-care,
+.general-enquiry {
+    margin-top: 20px;
+}
+
+.customer-care a {
+    color: #31708f;
+}
+
+.general-enquiry a {
+    color: #31708f;
+}
+
+.customer-care a:hover {
+    color: #F4A01C;
+    text-decoration: none;
+}
+
+.general-enquiry a:hover {
+    color: #F4A01C;
+    text-decoration: none;
+}
+
+.offices {
+    margin-top: 1em;
+    padding-left: 1em;
+}
+
+.office-wrapper {
+    background: rgba(150, 200, 150, .2);
+    margin-top: 1em;
+}
+
+.head-office,
+.branch-office {
+    padding-bottom: 1em;
+    padding-top: .5em;
+    padding-right: 1em;
+    padding-left: 2em;
+    color: rga(0, 0, 0, 0.6);
+}
+
+.office-city {
+    padding-bottom: 5px;
+    font-family: 'Roboto Slab', serif;
+}
+
+.c-office{
+    margin-top: -10px;
+}

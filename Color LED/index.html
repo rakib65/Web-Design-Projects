@@ -1,0 +1,78 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Color Picker</title>
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<link rel="stylesheet" href="css/wheelcolorpicker.css">
+<link rel="stylesheet" href="css/arm.css">
+</head>
+
+<body>
+<div class="arm-content-wrapper">
+	<div class="container">
+		
+			<div class="row">
+			<div class="col-md-4 col-sm-4 col-xs-12">
+				
+					<div class="color-icker-wrapper text-center">
+						<h4 class="arm-color-wheel-heading">Pick Color for Left:</h4>
+
+						<input data-wheelcolorpicker="" data-wcp-autoresize="false" data-wcp-layout="block" data-wcp-cssclass="custom-size1" data-wcp-sliders="wv" type="text" name="left">
+
+						<style type="text/css">
+							.custom-size1 {
+								margin-top: 15px;
+								width: 250px;
+								height: 180px;
+							}
+						</style>	
+
+					</div>
+
+
+					<div class="color-icker-wrapper text-center">
+						<h4 class="arm-color-wheel-heading">Pick Color for Right:</h4>
+						<input data-wheelcolorpicker="" data-wcp-autoresize="false" data-wcp-layout="block" data-wcp-cssclass="custom-size1" data-wcp-sliders="wv" type="text" name="right">
+
+						<style type="text/css">
+							.custom-size1 {
+								margin-top: 15px;
+								width: 250px;
+								height: 180px;
+							}
+						</style>	
+						
+					</div>
+					<div class="text-center arm-button"><button class="btn btn-default">Preview Changes</button></div>
+					
+					
+				</div>
+				<div class="col-md-8 col-sm-8 col-xs-12">
+					<div class="img-wrap">
+							
+						<div class="preview-left">
+							<img class="img-left" src="img/left.png">
+						</div>
+
+						<div class="preview-right">
+							<img class="img-right" src="img/right.png">
+						</div>
+
+					</div>	
+				</div>
+				
+			</div>
+
+<div class="clearfix"></div>
+		
+	</div> <!-- /container -->
+</div> <!-- /arm-content-wrapper -->
+
+<!-- ------ scripts ------- -->
+<script src="js/jquery-3.2.1.min.js"></script>
+<script src="js/jquery.wheelcolorpicker.js"></script>
+<script src="js/arm2.js"></script>
+
+</body>
+</html>

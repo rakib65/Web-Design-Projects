@@ -1,0 +1,294 @@
+/* CSS Document */
+@import url('https://fonts.googleapis.com/css?family=Montserrat:800|Noto+Serif|Open+Sans:400,700');
+/*
+font-family: 'Montserrat', sans-serif;
+font-family: 'Noto Serif', serif;
+font-family: 'Open Sans', sans-serif;
+*/
+
+body{
+	background: url(../img/background.jpg) no-repeat fixed;
+	background-position: center center;
+	background-size: cover;
+	color: #FFF;
+	font-family: 'Open Sans', sans-serif;
+}
+
+
+.headerNav, .fixed-top{
+	padding-top: 2em;
+	background: rgba(0,0,0,0.2)
+}
+ul.csNavlist{
+	display: block;
+	list-style: none;
+	text-align: center;
+	padding: 0;
+}
+li.cs-nav-item{
+	display: inline-block;
+	padding-left: 1em;
+	padding-right: 1em;
+	text-align: center;
+	
+}
+.cs-nav-link{
+	color: #999;
+	text-transform: uppercase;
+	font-size: 1em;
+	letter-spacing: 1px;
+	text-decoration: none;
+		
+}
+.cs-nav-link:hover,
+.cs-nav-link:focus{
+	color: #fff;
+	text-decoration: none;
+}
+
+/*------------------------------------------------------------------------
+	HEADER SECTION
+--------------------------------------------------------------------------*/
+
+
+.logo-img{
+	height: 80px;
+	width: auto;
+}
+.logo-wrapper{
+	padding-top: 1.5em;
+	padding-bottom: 2em;
+}
+
+.bgreen{
+	color: #25caa2;
+}
+
+.subheadline-text{
+	font-family: 'Noto Serif', serif;
+	font-size: 1.1em;
+	font-weight: normal;
+	padding-top: 1em;
+	color: #888;
+	letter-spacing: 2px;
+	word-spacing: 2px;
+}
+
+.headline-text{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 4em;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+}
+
+.down-icon{
+	font-size: 3em;
+	padding-top: 1em;
+	color: #ccc;
+}
+.down-icon:hover{
+	color: #25caa2;
+}
+
+/*---------------------------------------------------------------
+	CONTENTS
+-------------------------------------------------------------*/
+/* contact form */
+
+.contact-wrapper{
+	padding-left: 2em;
+	padding-right: 2em;
+	padding-bottom: 2em;
+	margin-left: 1em;
+	margin-right: 1em;
+	margin-top: 2em;
+}
+.cmessage{
+	padding-bottom: 1.5em;
+	padding-top: 1em;
+}
+.cmessage-headline{
+	font-family: 'Noto Serif', serif;
+	text-align: center;
+	font-size: 1.8em; 
+	color: #aaa;
+	text-transform: capitalize;
+	padding-bottom: .5em;
+}
+.form-group{
+	padding-bottom: 10px;
+}
+.form-control{
+	border-radius: 0px;
+}
+.cform-field{
+	background: rgba(0,0,0,0.4);
+	border: 1px solid #666;
+	color: #666;
+	padding-left: 2em;
+	
+}
+.cform-field:focus{
+	background: rgba(0,0,0,0.4);
+	border: 1px solid #eee;
+	color: #eee;
+	box-shadow: none;
+}
+
+.cform-submit{
+	background: rgba(0,0,0,0.4);
+	border: 1px solid #666;
+	color: #666;
+	width: 50%;
+	text-align: center;
+	text-transform: uppercase;
+	cursor: pointer;
+	margin: 0 auto;
+	
+
+}
+.cform-submit:hover,
+.cform-submit:active,
+.cform-submit:focus{
+	border: none;
+	background: #25caa2;
+	color: #FFF;
+}
+
+
+/* Job Application Form */
+.landing-wrapper{
+	background: url(../img/shade4.png) repeat-y;
+	background-position: center center;
+	background-size: cover;
+	padding-left: 3em;
+	padding-right: 3em;
+	padding-top: 1em;
+	border-left: 1px solid rgba(37,202,162,0.2);
+	border-right: 1px solid rgba(37,202,162,0.2);
+	height: 100%;
+	width: 100%;
+	margin-top: 3em;
+	margin-bottom: 1em;
+}
+.lmessage{
+	padding-bottom: 1.5em;
+	padding-top: 1em;
+}
+.lmessage-headline{
+	font-family: 'Noto Serif', serif;
+	text-align: center;
+	font-size: 1.5em; 
+	color: #aaa;
+	text-transform: capitalize;
+	padding-right: 1em;
+}
+
+.lform-field{
+	background: rgba(0,0,0,0.4);
+	border: 1px solid #666;
+	color: #666;
+	padding-left: 2em;
+}
+.lform-field:focus{
+	background: rgba(0,0,0,0.4);
+	border: 1px solid rgba(37,202,162,0.9);
+	color: #eee;
+	box-shadow: none;
+}
+.lform-submit{
+	background: rgba(0,0,0,0.4);
+	border: 1px solid #666;
+	color: #666;
+	width: 50%;
+	text-align: center;
+	margin: 0 auto;
+	text-transform: uppercase;
+	cursor: pointer;
+}
+.lform-submit:hover,
+.lform-submit:active,
+.lform-submit:focus{
+	border: none;
+	background: #25caa2;
+	color: #FFF;
+}
+
+label{
+	color: #666;
+	padding-bottom: 10px;
+}
+
+.form-check{
+	padding-left: 2em;
+}
+
+.other-option{
+	margin-top: 1em;
+}
+.radio-other-option{
+	background: rgba(0,0,0,0.4);
+	border: 1px solid #666;
+	color: #666;
+	padding-left: 2em;
+}
+.radio-other-option:focus{
+	background: rgba(0,0,0,0.4);
+	border: 1px solid rgba(37,202,162,0.9);
+	color: #eee;
+	box-shadow: none;
+}
+
+/*-------------------------------------------------------------------
+	FOOTER SECTION
+------------------------------------------------------------------*/
+.copyright{
+	margin-top: 1em;
+	padding-bottom: 1em;
+}
+.copyright-text{
+	text-transform: uppercase;
+	font-size: 12px;
+	color: #666;
+	letter-spacing: 3px;
+	padding-left: 1em;
+	padding-right: 1em;
+	font-family: 'Open Sans', sans-serif;
+}
+/*-----------------------------------------------
+FORM validation
+--------------------------------------*/
+p.error{
+	padding: 10px 0px 5px 10px;
+	font-size: .9em;
+	color: rgba(255,98,98,0.80);
+	margin: 0;
+	
+}
+
+/*-------------------------------------------------------
+	RESPONSIVE CSS
+--------------------------------------------------------------*/
+@media(max-width:420px) {
+	.headerNav{
+		margin-top: 1em;
+	}
+	.cs-nav-link{
+		font-size: .8em;
+	}
+	.headline-text{
+		font-size: 2em;
+	}
+	.cmessage-headline{
+		font-size: 1.5em;
+	}
+	#csContact{
+		font-size: 1.5em;
+	}
+	#csLanding{
+		font-size: 1.5em;
+	}
+	#fullpage{
+		margin-top: 2em;
+	}
+}

@@ -1,0 +1,314 @@
+/* CSS Document */
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500');
+@import url('https://fonts.googleapis.com/css?family=Tangerine');
+@import url('https://fonts.googleapis.com/css?family=Source+Serif+Pro');
+@import url('https://fonts.googleapis.com/css?family=Great+Vibes');
+.navbar{
+	margin-bottom: 0;
+}
+.logo-left{
+	text-align: left;
+}
+.top-img{
+	height: 80px;
+	margin-top: 10px;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+.address{
+	margin-top: 10px;
+}
+p.top-add-l{
+	margin: 0;
+	padding-top: 25px;
+	text-align: right;
+	font-size: 1.75em;
+}
+p.top-add-r{
+	margin: 0;
+	text-align: left;
+	padding-top: 25px;
+
+}
+.icon-top{
+	padding-right: 5px;
+}
+.nav-custom{
+	background: rgba(255,255,255,1);
+	padding-bottom: 10px;
+	box-shadow: 1px 1px 5px rgba(0,0,0,0.3);
+}
+.top-link{
+	color: #DE5781;
+	
+}
+.top-link:hover{
+	color: #2a6496;
+	text-decoration: none;
+}
+@media(max-width:767px) {
+	.top-img{height: 60px;}
+		p.top-add-l{
+			margin: 0;
+			padding-top: 10px;
+			text-align: center;
+			font-size: 1.4em;
+		}
+		p.top-add-r{
+			margin: 0;
+			text-align: center;
+			padding-top: 10px;
+
+		}
+	.logo-left{
+		text-align: center;
+	}
+	
+}
+
+@media(max-width:480px) {
+	p.top-add-r{
+			
+			padding-top: 2px;
+
+		}
+}
+
+
+/* ----------------------------------------------------------------------------------------------
+			Banner
+----------------------------------------------------------------------------------------------- */
+#banner{
+	background: url(../img/pexelsphoto256737.jpg) no-repeat fixed;
+	background-position: center center;
+	background-size: cover;
+}
+.banner-wrapper{
+	background: url(../img/pattern.png) fixed;
+	padding: 0;
+	margin: 0;
+	height: 500px;
+}
+.banner-text-wrapper{
+	position: relative;
+}
+.banner-text{
+	color: #ffffff;
+	font-family: 'Great Vibes', cursive;
+	line-height: 1.2em;
+	font-size: 3em;
+	text-align: center;
+	padding: 3em 0;
+	font-weight: 500;
+	text-shadow: 1px 1px 2px rgba(0,0,0,0.3);
+	text-transform: capitalize;	 
+}
+.banner-text p {
+	padding-top: 10px;
+}
+
+@media(max-width:768px) {
+	.banner-wrapper{
+		height: 380px;
+		
+	}
+	.banner-text{
+		padding: 2.5em 0;
+		font-size: 2.2em;
+		line-height: 1.3em;
+	}
+	.banner-text p{
+		padding-bottom: .2em;
+	}
+}
+
+@media(max-width:480px) {
+	.banner-text{
+		padding: 2em 0;
+		font-size: 2em;
+		line-height: 1.2em;
+	}
+	.banner-text p{
+		padding-bottom: 0;
+	}
+}
+
+
+
+/*-----------------------------------------------------------------------------------------------------------
+	CONTACT FORM
+----------------------------------------------------------------------------------------------------------------*/
+#contact{
+	background: #fff;
+}
+
+.about{
+	padding-top: 3em;
+	padding-left: 1em;
+	padding-right: 0;
+	padding-bottom: 3em;
+}
+
+.contact-form{
+	background: #FFF;
+	padding-top: 3em;
+	padding-left: 2em;
+	padding-right: 2em;
+	padding-bottom: 3em;
+	border: 1px solid #fff;
+	box-shadow: -2px -2px 5px rgba(0,0,0,0.2);
+}
+
+.about-heading{
+	font-family: 'Tangerine', cursive;
+	line-height: 1.2em;
+	font-size: 2.5em;
+	text-align: center;
+	font-weight: 400;
+	color: #303030;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-bottom: 15px;
+}
+.about-body{
+	font-family: 'Source Serif Pro', serif;
+	font-weight: 400;
+	color: #666;
+	text-align: justify;
+	font-size: 1.2em;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-bottom: 10px;
+}
+
+.cform-heading{
+	font-family: 'Tangerine', cursive;
+	line-height: 1.2em;
+	font-size: 2.5em;
+	text-align: center;
+	font-weight: 400;
+	color: #303030;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-bottom: 15px;
+}
+
+.form-group{
+	padding-top: 10px;
+}
+
+.form-control{
+	border-radius: 2px;
+	border:  inset 1px solid #fff;
+	box-shadow: none;
+	background: rgba(0,0,0,0);
+	font-family: 'Source Serif Pro', serif;
+	font-size: 1.1em;
+	width: 80%;
+	margin: auto;	
+}
+.btn-submit{
+	width: 50%;
+	border: none;
+	background: #DE5781;
+	color: #FFF;
+	text-transform: uppercase;
+	font-family: 'Poppins', sans-serif;
+	font-size: 1.3em;
+	height: 40px;
+}
+.btn-submit:hover,
+.btn-submit:focus{
+	background: #2a6496;
+}
+
+.posted{
+	text-align: center;
+	padding-top: 5px;
+	color: #468847;
+}
+@media(max-width:991px) {
+	.contact-form{
+		box-shadow: 1px -1px 5px rgba(0,0,0,0.15);
+	}
+}
+
+@media(max-width:480px) {
+	.form-control{
+		width: 100%;
+	}
+	.btn-submit{
+		width: 60%;
+	}
+}
+
+
+/*---------------------------------------------------------------------------------------------------------------------
+	TESTIMONIAL
+-------------------------------------------------------------------------------------------------------------------------*/
+
+#testimonial{
+	background: url(../img/29_weddingringswallpaper11.jpg) no-repeat fixed;
+	background-position: center center;
+	background-size: cover;
+}
+.testimonial-wrapper{
+	background: url(../img/pattern.png);
+	margin: 0 auto;
+	text-align: center;
+	padding: 1em;
+}
+.testimonial-video-wrapper{
+	padding-bottom: 3em;
+	padding-top: 3em;
+}
+.embed-video{
+	border: none;
+	box-shadow: 0 0 10px rgba(255,255,255,0.3);
+	height: 315px;
+	width: 560px;
+	margin: 0 auto;
+}
+.testimonial-heading{
+	font-family: 'Tangerine', cursive;
+	line-height: 1.2em;
+	font-size: 2.5em;
+	text-align: center;
+	font-weight: 400;
+	color: #fff;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-bottom: 15px;
+}
+
+@media(max-width:768px) {
+	.embed-video{
+		height: 236px;
+		width: 420px;
+		margin: 0 auto;
+	}	
+}
+
+@media(max-width:480px) {
+	.embed-video{
+		height: 150px;
+		width: 260px;
+	}
+	.testimonial-heading{
+		font-size: 2em;
+	}
+}
+
+/*----------------------------------------------------------------------------------------------
+	FOOOTER
+------------------------------------------------------------------------------------------*/
+#footer{
+	background: #3A3A45;
+}
+.copyright{
+	font-size: 12px;
+	padding: 20px 10px 10px 10px;
+	color: rgb(153, 153, 157);
+	text-transform: uppercase;
+	letter-spacing: 1px;
+}
